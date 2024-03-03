@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "express.sid",
+      "value": "s%3AEBO6p7CjLcQbWGTrbXnyMhx133A19ve8.NA%2Fc61%2Fd5wfrrlfzaJu1zYHsleqh1qVdSnB5aPUWDB0",
+      "domain": "localhost",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
