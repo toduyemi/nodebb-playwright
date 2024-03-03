@@ -6,12 +6,12 @@ const ADMIN_CRED = {
   pw: '1234test',
 };
 test('login-setup canary test', async ({ page, request }) => {
-  await request.post(API_URL + 'utilities/login', {
-    data: {
-      username: ADMIN_CRED.user,
-      password: ADMIN_CRED.pw,
-    },
-  });
+  //   await request.post(API_URL + 'utilities/login', {
+  //     data: {
+  //       username: ADMIN_CRED.user,
+  //       password: ADMIN_CRED.pw,
+  //     },
+  //   });
   await page.goto('/');
   await expect(page).toHaveTitle('NodeBB');
 });

@@ -10,7 +10,7 @@ const authFile = 'playwright/.auth/user.json';
 
 setup('authenticate', async ({ request }) => {
   const response = await request.post(API_URL + 'utilities/login', {
-    data: {
+    form: {
       username: ADMIN_CRED.user,
       password: ADMIN_CRED.pw,
     },
